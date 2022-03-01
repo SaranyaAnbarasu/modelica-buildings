@@ -3,13 +3,12 @@ model SwitchBox
   "Model for mass flow rate redirection with three-port two-position directional valves"
   replaceable package Medium = Modelica.Media.Interfaces.PartialMedium
     "Medium model";
-  parameter Modelica.SIunits.MassFlowRate m_flow_nominal
-    "Nominal mass flow rate"
-    annotation(Dialog(group="Nominal condition"));
-  parameter Modelica.SIunits.PressureDifference dpValve_nominal(
-    min=0, displayUnit="Pa") = 5000
-    "Valve pressure drop at nominal conditions"
-    annotation(Dialog(group="Nominal condition"));
+  parameter Modelica.Units.SI.MassFlowRate m_flow_nominal
+    "Nominal mass flow rate" annotation (Dialog(group="Nominal condition"));
+  parameter Modelica.Units.SI.PressureDifference dpValve_nominal(
+    min=0,
+    displayUnit="Pa") = 5000 "Valve pressure drop at nominal conditions"
+    annotation (Dialog(group="Nominal condition"));
   parameter Real trueHoldDuration(
     final unit="s") = 60
     "true hold duration";
@@ -53,7 +52,7 @@ model SwitchBox
     iconTransformation(extent=
            {{-140,20},{-100,60}})));
   // COMPONENTS
-  DHC.EnergyTransferStations.BaseClasses.Junction splSup(
+  Buildings.Experimental.DHC.EnergyTransferStations.BaseClasses.Junction splSup(
     redeclare final package Medium = Medium,
     m_flow_nominal={1,1,1}*m_flow_nominal)
     "Flow splitter"
@@ -61,7 +60,7 @@ model SwitchBox
         extent={{10,10},{-10,-10}},
         rotation=-90,
         origin={-20,40})));
-  DHC.EnergyTransferStations.BaseClasses.Junction splRet(
+  Buildings.Experimental.DHC.EnergyTransferStations.BaseClasses.Junction splRet(
     redeclare final package Medium = Medium,
     m_flow_nominal={1,1,1}*m_flow_nominal)
     "Flow splitter"
@@ -69,7 +68,7 @@ model SwitchBox
         extent={{10,10},{-10,-10}},
         rotation=90,
         origin={20,0})));
-  DHC.EnergyTransferStations.Combined.Generation5.Controls.SwitchBox con(
+  Buildings.Experimental.DHC.EnergyTransferStations.Combined.Generation5.Controls.SwitchBox con(
     final trueHoldDuration=trueHoldDuration,
     final falseHoldDuration=falseHoldDuration)
     "Switch box controller"

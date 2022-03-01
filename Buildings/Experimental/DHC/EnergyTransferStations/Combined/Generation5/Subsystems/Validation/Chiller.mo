@@ -24,7 +24,7 @@ model Chiller
     TConEntMax=333.15)
     "Chiller performance data"
     annotation (Placement(transformation(extent={{20,100},{40,120}})));
-  Experimental.DHC.EnergyTransferStations.Combined.Generation5.Subsystems.Chiller chi(
+  Buildings.Experimental.DHC.EnergyTransferStations.Combined.Generation5.Subsystems.Chiller chi(
     redeclare final package Medium=Medium,
     final dat=datChi,
     dpCon_nominal=15E3,
@@ -45,8 +45,7 @@ model Chiller
     annotation (Placement(transformation(extent={{-10,-10},{10,10}},rotation=0,origin={-110,-62})));
   Buildings.Controls.OBC.CDL.Continuous.Sources.Constant TChiWatSupSet(
     k=7+273.15,
-    y(
-      final unit="K",
+    y(final unit="K",
       displayUnit="degC"))
     "Chilled water supply temperature set point"
     annotation (Placement(transformation(extent={{-120,-10},{-100,10}})));
@@ -79,8 +78,7 @@ model Chiller
     "Cooling enable signal"
     annotation (Placement(transformation(extent={{-120,70},{-100,90}})));
   Modelica.Blocks.Sources.TimeTable THeaWatRet(
-    y(
-      final unit="K",
+    y(final unit="K",
       displayUnit="degC"),
     table=[
       0,44;
@@ -94,8 +92,7 @@ model Chiller
     "Heating water return temperature values"
     annotation (Placement(transformation(extent={{-190,-70},{-170,-50}})));
   Modelica.Blocks.Sources.TimeTable TChiWatRet(
-    y(
-      final unit="K",
+    y(final unit="K",
       displayUnit="degC"),
     table=[
       0,9;

@@ -4,7 +4,7 @@ model CouplingSpawnZ6
   extends Modelica.Icons.Example;
   package Medium1=Buildings.Media.Water
     "Source side medium";
-  BaseClasses.BuildingSpawnZ6 bui(
+  Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingSpawnZ6 bui(
     nPorts_aHeaWat=1,
     nPorts_aChiWat=1,
     nPorts_bHeaWat=1,
@@ -104,8 +104,8 @@ First implementation.
       graphics={
         Text(
           extent={{-28,36},{104,10}},
-          lineColor={28,108,200},
+          textColor={28,108,200},
           textString="")}),
     __Dymola_Commands(
-      file="Resources/Scripts/Dymola/Experimental/DHC/Loads/Examples/CouplingSpawnZ6.mos" "Simulate and plot"));
+      file="modelica://Buildings/Resources/Scripts/Dymola/Experimental/DHC/Loads/Examples/CouplingSpawnZ6.mos" "Simulate and plot"));
 end CouplingSpawnZ6;

@@ -1,7 +1,7 @@
 within Buildings.Experimental.DHC.Examples.Combined.Generation5.Networks.BaseClasses;
 model ConnectionSeriesStandard
   "Model for connecting an agent to the DHC system"
-  extends DHC.Networks.BaseClasses.PartialConnection1Pipe(
+  extends Buildings.Experimental.DHC.Networks.BaseClasses.PartialConnection1Pipe(
     tau=5*60,
     redeclare replaceable model Model_pipDis = PipeStandard (
       roughness=7e-6,
@@ -13,13 +13,13 @@ model ConnectionSeriesStandard
       fac=2,
       final length=2*lCon,
       final dh=dhCon));
-  parameter Modelica.SIunits.Length lDis
+  parameter Modelica.Units.SI.Length lDis
     "Length of the distribution pipe before the connection";
-  parameter Modelica.SIunits.Length lCon
+  parameter Modelica.Units.SI.Length lCon
     "Length of the connection pipe (supply only, not counting return line)";
-  parameter Modelica.SIunits.Length dhDis
+  parameter Modelica.Units.SI.Length dhDis
     "Hydraulic diameter of the distribution pipe";
-  parameter Modelica.SIunits.Length dhCon
+  parameter Modelica.Units.SI.Length dhCon
     "Hydraulic diameter of the connection pipe";
   annotation (Documentation(revisions="<html>
 <ul>

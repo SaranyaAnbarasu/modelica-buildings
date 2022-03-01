@@ -11,7 +11,7 @@ model CouplingRCZ6
       "modelica://Buildings/Resources/weatherdata/USA_CA_San.Francisco.Intl.AP.724940_TMY3.mos"))
     "Weather data reader"
     annotation (Placement(transformation(extent={{60,20},{40,40}})));
-  BaseClasses.BuildingRCZ6 bui(
+  Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingRCZ6 bui(
     nPorts_aHeaWat=1,
     nPorts_aChiWat=1,
     nPorts_bHeaWat=1,
@@ -102,7 +102,7 @@ First implementation.
         preserveAspectRatio=false,
         extent={{-120,-100},{160,60}})),
     __Dymola_Commands(
-      file="Resources/Scripts/Dymola/Experimental/DHC/Loads/Examples/CouplingRCZ6.mos" "Simulate and plot"),
+      file="modelica://Buildings/Resources/Scripts/Dymola/Experimental/DHC/Loads/Examples/CouplingRCZ6.mos" "Simulate and plot"),
     experiment(
       StopTime=604800,
       Tolerance=1e-06));

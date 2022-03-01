@@ -11,7 +11,7 @@ model CouplingRCZ1Valve
     annotation (Placement(transformation(extent={{60,100},{40,120}})));
   package Medium1=Buildings.Media.Water
     "Source side medium";
-  BaseClasses.BuildingRCZ1Valve bui(
+  Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingRCZ1Valve bui(
     nPorts_aHeaWat=1,
     nPorts_aChiWat=1,
     nPorts_bHeaWat=1,
@@ -103,5 +103,5 @@ First implementation.
         preserveAspectRatio=false,
         extent={{-140,-20},{160,140}})),
     __Dymola_Commands(
-      file="Resources/Scripts/Dymola/Experimental/DHC/Loads/Examples/CouplingRCZ1Valve.mos" "Simulate and plot"));
+      file="modelica://Buildings/Resources/Scripts/Dymola/Experimental/DHC/Loads/Examples/CouplingRCZ1Valve.mos" "Simulate and plot"));
 end CouplingRCZ1Valve;
