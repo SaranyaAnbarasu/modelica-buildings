@@ -14,7 +14,7 @@ model SingleBoiler "Example model for a complete steam district heating system w
       h_default=2738100)
     "Water medium";
 
-  parameter Modelica.Units.SI.AbsolutePressure pSat=400000
+  parameter Modelica.Units.SI.AbsolutePressure pSat=896318
     "Saturation pressure, high pressure";
   parameter Modelica.Units.SI.AbsolutePressure pLow=200000
     "Reduced pressure, after PRV";
