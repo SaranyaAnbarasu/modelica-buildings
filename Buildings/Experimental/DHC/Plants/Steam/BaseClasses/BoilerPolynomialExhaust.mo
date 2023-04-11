@@ -155,8 +155,8 @@ protected
     "Heat flow rate of the fuel"
     annotation (Placement(transformation(extent={{60,80},{80,100}})));
 public
-  Modelica.Blocks.Sources.RealExpression Q_flow_exh(y=(1 - eta)*QFue_flow)
-                          "Heat losses in the exhaust"
+  Modelica.Blocks.Sources.RealExpression Q_flow_exh(y=((1 - eta)*QFue_flow) +
+        heatPort.Q_flow)  "Heat losses in the exhaust"
     annotation (Placement(transformation(extent={{80,50},{60,70}})));
 protected
   HeatTransfer.Sources.PrescribedHeatFlow preHeaFlo1 if not steadyDynamics

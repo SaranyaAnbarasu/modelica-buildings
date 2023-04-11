@@ -77,7 +77,7 @@ model BoilerPolynomialExhaustCombustiongas "A equilibrium boiler with water phas
     min=0) "Output liquid water volume"
     annotation (Placement(transformation(extent={{100,-90},{120,-70}})));
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a heatPort
-    if not steadyDynamics "Heat port, can be used to connect to ambient"
+                          "Heat port, can be used to connect to ambient"
     annotation (Placement(transformation(extent={{-10,90},{10,110}})));
   Modelica.Thermal.HeatTransfer.Components.HeatCapacitor heaCapDry(C=500*mDry,
       T(start=T_start)) if not steadyDynamics "Heat capacity of boiler metal"

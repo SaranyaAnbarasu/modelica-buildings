@@ -1,5 +1,5 @@
 within Buildings.Experimental.DHC.Plants.Steam.BaseClasses.Examples;
-model BoilerPolynomialFourPort
+model BoilerPolynomialFourPortComb
   "Example model for the steam boiler with a polynomial efficiency curve"
   extends Modelica.Icons.Example;
 
@@ -11,7 +11,6 @@ model BoilerPolynomialFourPort
      "Steam medium - port_b (oulet)";
   package MediumAir = Buildings.Media.CombustionAir
      "Combustion air medium";
-
 
   // Nominal conditions
   parameter Modelica.Units.SI.AbsolutePressure p_nominal = 917003
@@ -32,22 +31,22 @@ model BoilerPolynomialFourPort
 
   Buildings.Fluid.Sources.Boundary_pT sin(
     redeclare package Medium = MediumSte,
-    p(displayUnit="bar") = 300000,
-    T=423.15,
+    p(displayUnit="bar") = 900000,
+    T=453.15,
     nPorts=1)
     "Sink"
     annotation (Placement(transformation(extent={{80,10},{60,30}})));
   Buildings.Fluid.Sources.Boundary_pT sou(
     redeclare package Medium = MediumWat,
-    use_T_in=true,
     T=303.15,
     nPorts=1)
     "Source"
     annotation (Placement(transformation(extent={{-80,10},{-60,30}})));
-  Buildings.HeatTransfer.Sources.FixedTemperature TAmb(T=288.15)
+  Buildings.HeatTransfer.Sources.FixedTemperature TAmb(T=303.15)
     "Ambient temperature in boiler room"
     annotation (Placement(transformation(extent={{-30,102},{-10,122}})));
-  BoilerPolynomialExhaust boiDyn(
+  BoilerPolynomialExhaustCombustiongas
+                          boiDyn(
     m1_flow_nominal=1,
     m2_flow_nominal=m_flow_nominal,
     redeclare package MediumAir = MediumAir,
@@ -73,10 +72,8 @@ model BoilerPolynomialFourPort
       nPorts=1)
     "Source"
     annotation (Placement(transformation(extent={{80,70},{60,90}})));
-  Modelica.Blocks.Sources.Ramp ramp(
-    height=300,
-    duration=3000,
-    offset=273.15 + 25)
+  Modelica.Blocks.Sources.Constant
+                               const(k=273.15 + 48)
     annotation (Placement(transformation(extent={{-120,74},{-100,94}})));
   Fluid.Movers.FlowControlled_m_flow fwPum(
     redeclare package Medium = MediumWat,
@@ -86,10 +83,12 @@ model BoilerPolynomialFourPort
     dp_nominal=dp_nominal) "Feed water pump"
     annotation (Placement(transformation(extent={{-40,10},{-20,30}})));
   Modelica.Blocks.Sources.Constant
-                               const1(k=13.3)
+                               const1(k=4.8)
     annotation (Placement(transformation(extent={{-120,30},{-100,50}})));
-  Modelica.Blocks.Sources.Constant
-                                const(k=1)
+  Modelica.Blocks.Sources.Pulse pulse(
+    amplitude=1,
+    width=30,
+    period=500)
     annotation (Placement(transformation(extent={{-120,114},{-100,134}})));
   Modelica.Blocks.Sources.RealExpression QFue(y=boiDyn.QFue_flow)
     "Fuel heat flow rate"
@@ -108,7 +107,7 @@ model BoilerPolynomialFourPort
     "Q calcuated based on the mflow and enthalpy of the combustion side ports"
     annotation (Placement(transformation(extent={{66,-68},{86,-48}})));
   Modelica.Blocks.Sources.RealExpression Qevap(y=((boiDyn.port_b2.h_outflow -
-        boiDyn.port_a2.h_outflow)*boiDyn.port_a2.m_flow))
+        boiDyn.port_a2.h_outflow)*boiDyn.port_b2.m_flow))
     "Q calcuated based on the mflow and enthalpy of the combustion side ports"
     annotation (Placement(transformation(extent={{66,-118},{86,-98}})));
   Modelica.Blocks.Continuous.Integrator iQfue(k=1/(3600*1000), y_start=1)
@@ -137,11 +136,6 @@ model BoilerPolynomialFourPort
     annotation (Placement(transformation(extent={{32,-146},{12,-166}})));
   Modelica.Blocks.Math.Add diffQcomb(k1=-1)
     annotation (Placement(transformation(extent={{90,-146},{70,-166}})));
-  Modelica.Blocks.Sources.Ramp ramp1(
-    height=100,
-    duration=3000,
-    offset=273.15 + 25)
-    annotation (Placement(transformation(extent={{-156,-8},{-136,12}})));
 equation
   connect(TAmb.port, boiDyn.heatPort)
     annotation (Line(points={{-10,112},{0,112},{0,62}},   color={191,0,0}));
@@ -153,7 +147,7 @@ equation
   connect(boiDyn.port_b1, sou2.ports[1]) annotation (Line(points={{10,56},{20,
           56},{20,80},{60,80}},
                             color={0,127,255}));
-  connect(ramp.y, sou1.T_in)
+  connect(const.y, sou1.T_in)
     annotation (Line(points={{-99,84},{-82,84}}, color={0,0,127}));
   connect(sou.ports[1], fwPum.port_a)
     annotation (Line(points={{-60,20},{-40,20}},   color={0,127,255}));
@@ -161,7 +155,7 @@ equation
           20},{-16,48},{-10,48}},  color={0,127,255}));
   connect(const1.y, fwPum.m_flow_in)
     annotation (Line(points={{-99,40},{-30,40},{-30,32}},    color={0,0,127}));
-  connect(const.y, boiDyn.y) annotation (Line(points={{-99,124},{-40,124},{-40,
+  connect(pulse.y, boiDyn.y) annotation (Line(points={{-99,124},{-40,124},{-40,
           60},{-12,60}}, color={0,0,127}));
   connect(QFue.y, iQfue.u)
     annotation (Line(points={{-149,-56},{-134,-56}}, color={0,0,127}));
@@ -213,8 +207,6 @@ equation
           {-68,-176},{46,-176},{46,-162},{34,-162}}, color={244,125,35}));
   connect(perQFlue.y, diffQcomb.u1) annotation (Line(points={{37,-64},{60,-64},{
           60,-176},{102,-176},{102,-162},{92,-162}}, color={244,125,35}));
-  connect(ramp1.y, sou.T_in) annotation (Line(points={{-135,2},{-90,2},{-90,24},
-          {-82,24}}, color={0,0,127}));
   annotation (__Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Experimental/DHC/Plants/Steam/BaseClasses/Examples/BoilerPolynomialFourPort.mos"
         "Simulate and plot"),
     experiment(Tolerance=1e-6, StopTime=3600),
@@ -245,4 +237,4 @@ First implementation.
           textColor={28,108,200},
           textString="Steady state verification (Heat balance)")}),
     Icon(coordinateSystem(extent={{-180,-140},{180,140}})));
-end BoilerPolynomialFourPort;
+end BoilerPolynomialFourPortComb;
