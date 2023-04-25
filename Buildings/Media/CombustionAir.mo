@@ -140,14 +140,14 @@ package CombustionAir
 
     // Assertions to test for bounds
     assert(noEvent(X[1] >= -1.e-5) and noEvent(X[1] <= 1 + 1.e-5), "Mass fraction X[1] = " + String(X[1]) + " of substance water"
-      + "\nof medium \"Buildings.Media.Air\" is not in the range 0..1");
+      + "\nof medium \"Buildings.Media.ombustionAir\" is not in the range 0..1");
 
     assert(noEvent(T >= 200.0), "In "   + getInstanceName() + ": Temperature T exceeded its minimum allowed value of -73.15 degC (200 Kelvin)
-as required from medium model \"Buildings.Media.Air\".");
+as required from medium model \"Buildings.Media.CombustionAir\".");
     assert(noEvent(T <= 4723.15), "In "   + getInstanceName() + ": Temperature T exceeded its maximum allowed value of 450 degC (723.15 Kelvin)
-as required from medium model \"Buildings.Media.Air\".");
+as required from medium model \"Buildings.Media.ombustionAir\".");
 
-  assert(noEvent(p >= 0.0), "Pressure (= " + String(p) + " Pa) of medium \"Buildings.Media.Air\" is negative\n(Temperature = " + String(T) + " K)");
+  assert(noEvent(p >= 0.0), "Pressure (= " + String(p) + " Pa) of medium \"Buildings.Media.ombustionAir\" is negative\n(Temperature = " + String(T) + " K)");
   annotation (Icon(coordinateSystem(preserveAspectRatio=true, extent={{-100,
             -100},{100,100}}), graphics={Rectangle(
           extent={{-100,100},{100,-100}},
