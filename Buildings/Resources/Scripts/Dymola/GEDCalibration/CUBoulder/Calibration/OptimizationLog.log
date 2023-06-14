@@ -1,0 +1,305 @@
+<html> <hr><p style="font-size:10pt;font-family:Arial;">All output is logged to <a href="file:////home/sbs-ubuntu/Git/ImprovedBoiler/modelica-buildings/Buildings/Resources/Scripts/Dymola/GEDCalibration/CUBoulder/Calibration/OptimizationLog.log"> file:////home/sbs-ubuntu/Git/ImprovedBoiler/modelica-buildings/Buildings/Resources/Scripts/Dymola/GEDCalibration/CUBoulder/Calibration/OptimizationLog.log</a></p></html>
+<html><hr><p style="font-size:10pt;font-family:Arial;"><strong>Legend for visualization:</strong><br></p>
+<table style="font-size:10pt;font-family:Arial;background-color:rgb(100, 100, 100);"  cellpadding="3" cellspacing="1" border="0">
+<tr style="background-color:white">
+<td><table  cellspacing="1"  cellpadding="3">
+<tr>
+<td width="30">
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="11">&nbsp;</td>
+<td style="background-color:red;" width="3"></td>
+</tr>
+</table>
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="6">&nbsp;</td>
+<td style="background-color:blue;" width="5"></td>
+<td style="background-color:red;" width="3"></td>
+<td style="background-color:blue;" width="5"></td>
+</tr>
+</table>
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="11">&nbsp;</td>
+<td style="background-color:red;" width="3"></td>
+</tr>
+</table>
+</td>
+<td valign="middle"><table style="font-size:2pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:red;" width="30">&nbsp;</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+<td width="250"> Start values for tuners and criteria</td>
+</tr>
+<tr style="background-color:white">
+<td><table  cellspacing="1"  cellpadding="3">
+<tr>
+<td width="30">
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="10">&nbsp;</td>
+<td style="background-color:green;" width="5"></td>
+</tr>
+</table>
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="12">&nbsp;</td>
+<td style="background-color:green;" width="1"></td>
+</tr>
+</table>
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="6">&nbsp;</td>
+<td style="background-color:blue;" width="6"></td>
+<td style="background-color:green;" width="1"></td>
+<td style="background-color:blue;" width="6"></td>
+</tr>
+</table>
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="12">&nbsp;</td>
+<td style="background-color:green;" width="1"></td>
+</tr>
+</table>
+<table style="font-size:1pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:white;" width="10">&nbsp;</td>
+<td style="background-color:green;" width="5"></td>
+</tr>
+</table>
+</td>
+<td valign="middle"><table style="font-size:2pt;" cellspacing="0"  cellpadding="0">
+<tr>
+<td style="background-color:green;" width="30">&nbsp;</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+<td valign="middle" width="250"> Current values for tuners and criteria</td>
+</tr>
+<tr style="background-color:yellow">
+<td> </td>
+<td>Maximum of all active criteria values</td>
+</tr>
+<tr  style="background-color:white;color:blue">
+<td></td>
+<td>Constraint criteria</td>
+</tr>
+<tr style="background-color:rgb(230,230,230);color:rgb(150,150,150)">
+<td> </td>
+<td>Inactive tuners or criteria</td>
+</tr>
+</table>
+<p></p>
+<hr><span style="font-size:10pt;font-family:Arial;"><br><strong>Optimization run of model&nbsp;&nbsp;&nbsp;</strong> &quot;Buildings.GEDCalibration.CUBoulder.Components.Validation.Calibration.EconomizerTrain&quot; <strong>&nbsp;&nbsp;&nbsp;started at Tue Apr 25 23:22:17 2023:</strong></span>
+</html>
+<html> <hr> <p style="font-size:10pt;font-family:Arial;"><strong>Evaluation 1 (with tuner start values):</strong></p></html>
+<html>
+<table  style="font-size:9pt;font-family:Courier New;background-color:rgb(100, 100, 100);" cellpadding="3" cellspacing="1" border="0">
+<tr style="background-color:rgb(0,128,192);font-size:10pt;font-family:Arial;">
+<td width="255" align="center"><strong>Tuner parameters</strong></td>
+<td  width="200">name</td>
+<td  width="185" align="center">value</td>
+<td  width="185" align="center">difference to start</td>
+<td  width="185" align="center">min</td>
+<td width="185" align="center">max</td></tr>
+<tr valign="bottom" style="background-color:white">
+  <td valign="bottom" align="left" width="255"><table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="39"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="197"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="40"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="198"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:blue;" width="40"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:blue;" width="198"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="40"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="198"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="39"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="197"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">Q_flow_nominal</td>
+<td  align="right">   1.324e+6&nbsp;&nbsp;</td>
+<td align="right">   0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right">   1.1e+6&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right">   2.4e+6&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<tr valign="bottom" style="background-color:white">
+  <td valign="bottom" align="left" width="255"><table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="78"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="158"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="79"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="159"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:blue;" width="79"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:blue;" width="159"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="79"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="159"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="78"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="158"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">T_a2_nominal</td>
+<td  align="right"> 250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 350&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<tr valign="bottom" style="background-color:white">
+  <td valign="bottom" align="left" width="255"><table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="151"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="85"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="152"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="86"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:blue;" width="152"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:blue;" width="86"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="152"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="86"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="151"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="85"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">T_a1_nominal</td>
+<td  align="right"> 577&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 450&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 650&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</table>
+<p></p>
+</html>
+<html>
+<table style="font-size:9pt;font-family:Courier New;background-color:rgb(100, 100, 100);" cellpadding="3" cellspacing="1" border="0">
+<tr style="background-color:rgb(128, 128, 64);font-size:10pt;font-family:Arial;">
+<td width="255" align="center"><strong>Criteria</strong></td>
+<td width="200" >name</td>
+<td width="185" align="center" >scaled criteria</td>
+<td width="100" align="center">diff. to start</td>
+<td width="185" align="center">unscaled criteria</td>
+<td width="70" align="center">usage</td>
+<td width="185" align="center">demand value</td></tr>
+<tr valign="bottom" style="background-color:yellow">
+  <td style="font-family:Arial" valign="bottom" width="255"><table style="font-size:7pt" cellspacing="0" cellpadding="0"><tr><td width="10"></td><td style="color:blue" width="10" align="center">0</td><td width="63"></td><td style="color:blue" width="10" align="center">1</td><td width="63"></td><td style="color:blue" width="10" align="center">2</td><td width="63"></td><td style="color:blue" width="10" align="center">3</td></tr></table><table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:yellow;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:red;" width="3">&nbsp;</td><td style="background-color:yellow;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:yellow;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:green;" width="3">&nbsp;</td><td style="background-color:yellow;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:yellow;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:yellow;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">diff1.k</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td style="font-size:10pt;font-family:Arial;" align="center" > minimize</td>
+<td align="right">   1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr>
+<tr valign="bottom" style="background-color:white">
+  <td style="font-family:Arial" valign="bottom" width="255"><table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:red;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:green;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">diff2.k</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td style="font-size:10pt;font-family:Arial;" align="center" > minimize</td>
+<td align="right">   1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr>
+<tr valign="bottom" style="background-color:rgb(128, 128, 64);font-size:1pt"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr valign="bottom" style="background-color:white;">
+  <td style="font-family:Arial" valign="bottom" width="255"><table style="font-size:7pt" cellspacing="0" cellpadding="0"><tr><td width="10"></td><td style="color:blue" width="10" align="center">0</td><td width="63"></td><td style="color:blue" width="10" align="center">1</td><td width="63"></td><td style="color:blue" width="10" align="center">2</td><td width="63"></td><td style="color:blue" width="10" align="center">3</td></tr></table><table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:red;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:green;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td  style="font-size:10pt;font-family:Arial"><strong>Maximum of criteria</strong></td>
+<td  align="right" >  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right" >   0%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  style="font-size:10pt;font-family:Arial">&nbsp;</td>  <td></td><td></td>  </tr>  
+</table>
+</html>
+
+<html> <hr> <p style="font-size:10pt;font-family:Arial;"><strong>Final Solution  (evaluation 1 of 9):</strong></p></html>
+<html>
+<table  style="font-size:9pt;font-family:Courier New;background-color:rgb(100, 100, 100);" cellpadding="3" cellspacing="1" border="0">
+<tr style="background-color:rgb(0,128,192);font-size:10pt;font-family:Arial;">
+<td width="255" align="center"><strong>Tuner parameters</strong></td>
+<td  width="200">name</td>
+<td  width="185" align="center">value</td>
+<td  width="185" align="center">difference to start</td>
+<td  width="185" align="center">min</td>
+<td width="185" align="center">max</td></tr>
+<tr valign="bottom" style="background-color:white">
+  <td valign="bottom" align="left" width="255"><table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="39"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="197"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="40"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="198"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:blue;" width="40"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:blue;" width="198"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="40"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="198"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="39"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="197"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">Q_flow_nominal</td>
+<td  align="right">   1.324e+6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right">   1.1e+6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right">   2.4e+6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<tr valign="bottom" style="background-color:white">
+  <td valign="bottom" align="left" width="255"><table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="78"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="158"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="79"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="159"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:blue;" width="79"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:blue;" width="159"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="79"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="159"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="78"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="158"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">T_a2_nominal</td>
+<td  align="right"> 250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 350&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<tr valign="bottom" style="background-color:white">
+  <td valign="bottom" align="left" width="255"><table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="151"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="85"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="152"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="86"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:blue;" width="152"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:blue;" width="86"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="152"></td><td style="background-color:red;" width="1"></td><td style="background-color:green;" width="1"></td><td style="background-color:red;" width="1"></td><td style="background-color:white;" width="86"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:white;" width="3">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="151"></td><td style="background-color:green;" width="5"></td><td style="background-color:white;" width="85"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">T_a1_nominal</td>
+<td  align="right"> 577&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 450&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right"> 650&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</table>
+<p></p>
+</html>
+<html>
+<table style="font-size:9pt;font-family:Courier New;background-color:rgb(100, 100, 100);" cellpadding="3" cellspacing="1" border="0">
+<tr style="background-color:rgb(128, 128, 64);font-size:10pt;font-family:Arial;">
+<td width="255" align="center"><strong>Criteria</strong></td>
+<td width="200" >name</td>
+<td width="185" align="center" >scaled criteria</td>
+<td width="100" align="center">diff. to start</td>
+<td width="185" align="center">unscaled criteria</td>
+<td width="70" align="center">usage</td>
+<td width="185" align="center">demand value</td></tr>
+<tr valign="bottom" style="background-color:yellow">
+  <td style="font-family:Arial" valign="bottom" width="255"><table style="font-size:7pt" cellspacing="0" cellpadding="0"><tr><td width="10"></td><td style="color:blue" width="10" align="center">0</td><td width="63"></td><td style="color:blue" width="10" align="center">1</td><td width="63"></td><td style="color:blue" width="10" align="center">2</td><td width="63"></td><td style="color:blue" width="10" align="center">3</td></tr></table><table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:yellow;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:red;" width="3">&nbsp;</td><td style="background-color:yellow;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:yellow;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:green;" width="3">&nbsp;</td><td style="background-color:yellow;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:yellow;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:yellow;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:yellow;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">diff1.k</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td style="font-size:10pt;font-family:Arial;" align="center" > minimize</td>
+<td align="right">   1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr>
+<tr valign="bottom" style="background-color:white">
+  <td style="font-family:Arial" valign="bottom" width="255"><table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:red;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:green;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td style="font-size:10pt;font-family:Arial;">diff2.k</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">   0%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right">  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td style="font-size:10pt;font-family:Arial;" align="center" > minimize</td>
+<td align="right">   1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr>
+<tr valign="bottom" style="background-color:rgb(128, 128, 64);font-size:1pt"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr valign="bottom" style="background-color:white;">
+  <td style="font-family:Arial" valign="bottom" width="255"><table style="font-size:7pt" cellspacing="0" cellpadding="0"><tr><td width="10"></td><td style="color:blue" width="10" align="center">0</td><td width="63"></td><td style="color:blue" width="10" align="center">1</td><td width="63"></td><td style="color:blue" width="10" align="center">2</td><td width="63"></td><td style="color:blue" width="10" align="center">3</td></tr></table><table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:red;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:red;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:2pt" cellspacing="0" cellpadding="0"><tr><td style="background-color:green;" width="3">&nbsp;</td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="3"></td> <td style="background-color:green;" width="3"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table>
+<table style="font-size:1pt" cellspacing="0"  cellpadding="0"><tr><td style="background-color:white;" width="14">&nbsp;</td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td><td style="background-color:white;" width="72"></td><td style="background-color:blue;" width="1"></td></tr></table></td>
+<td  style="font-size:10pt;font-family:Arial"><strong>Maximum of criteria</strong></td>
+<td  align="right" >  -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  align="right" >   0%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td  style="font-size:10pt;font-family:Arial">&nbsp;</td>  <td></td><td></td>  </tr>  
+</table>
+</html>
+
+<html> <hr>
+<table style="font-size:10pt;font-family:Arial;background-color:rgb(100, 100, 100);" cellpadding="3" cellspacing="1" border="0">
+<tr style="background-color:rgb(192,192,192);font-size:10pt;font-family:Arial;">
+<td width="250"> <strong> Simplex method, simulated annealing </strong>   </td>
+<td  width="70"> </td> </tr>
+<tr style="background-color:white">
+<td> Number of total Criteria-Evaluations  </td>
+<td align="right"> 9 </td> </tr>
+<tr style="background-color:white">
+<td> Number of single Criteria-Evaluations </td>
+<td align="right"> 9 </td> </tr>
+<tr style="background-color:white">
+<td> Number of Jacobian-Evaluations  </td>
+<td align="right"> 0 </td> </tr>
+<tr style="background-color:white">
+<td> Number of failed Criteria-Evaluations  </td>
+<td align="right"> 2 </td> </tr>
+<tr style="background-color:white">
+<td> Computing time [sec]  </td>
+<td align="right"> 3.5 </td> </tr>
+</table>
+</html>
+<html> <hr><p style="font-size:10pt;font-family:Arial;">All output has been logged to <a href="file:////home/sbs-ubuntu/Git/ImprovedBoiler/modelica-buildings/Buildings/Resources/Scripts/Dymola/GEDCalibration/CUBoulder/Calibration/OptimizationLog.log"> file:////home/sbs-ubuntu/Git/ImprovedBoiler/modelica-buildings/Buildings/Resources/Scripts/Dymola/GEDCalibration/CUBoulder/Calibration/OptimizationLog.log</a></p></html>
+
