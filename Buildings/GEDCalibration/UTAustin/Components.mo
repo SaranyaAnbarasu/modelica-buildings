@@ -64,8 +64,8 @@ package Components
     Modelica.Blocks.Math.Gain PNor(final k=1/pSteSet)
       "Normalized pressure setpoint"
       annotation (Placement(transformation(extent={{-20,-86},{-40,-66}})));
-    Fluid.Sensors.Pressure           senPreSte(redeclare final package Medium
-        = MediumHea_b)
+    Fluid.Sensors.Pressure           senPreSte(redeclare final package Medium =
+          MediumHea_b)
       "Steam pressure sensor"
       annotation (Placement(transformation(extent={{30,-66},{10,-86}})));
     Buildings.Controls.Continuous.LimPID conBoi(
